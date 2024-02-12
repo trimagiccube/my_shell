@@ -32,4 +32,4 @@ echo "opt_d $opt_d arg_d $arg_d"
 echo $OPTIND
 
 shift $(( $OPTIND - 1 ))
-$# || usage
+(($#)) || usage
